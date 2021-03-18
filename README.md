@@ -1,0 +1,1 @@
+firebase-stripe-checkout
