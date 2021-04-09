@@ -1,6 +1,6 @@
   
   var firebaseConfig = {
-    // INSERT YOUR FIREBASE CONFIG INFO HERE
+    // FIREBASE CONFIG HERE!
   };
 
   // Initialize Firebase
@@ -8,7 +8,7 @@
 
   const checkoutButton = document.getElementById('checkout-button')
   const createStripeCheckout = firebase.functions().httpsCallable('createStripeCheckout')
-  const stripe = Stripe('INSERT YOUR STRIPE PUBLISHABLE KEY HERE')
+  const stripe = Stripe('YOUR STRIPE KEY HERE')
   
   checkoutButton.addEventListener('click', () => {
     createStripeCheckout()
